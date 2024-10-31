@@ -1,0 +1,44 @@
+{
+    "projects": [
+        {   "id": 0,
+            "project_name": "RANDOME QUOTE GENERATOR",
+            "description": "A Random Quote Generator is a web app that displays a new, randomly selected quote each time the user interacts with it, like clicking a “New Quote” button. It uses JavaScript to randomly select quotes from a predefined list or fetches quotes from an external API for variety. The project is ideal for practicing JavaScript fundamentals, event handling, and optionally working with APIs, and it allows for creative UI design with HTML and CSS.",
+            "technologies": ["html", "css", "javascript"],
+            "live_link": "https://gauravkumar03.github.io/random-quote-generator/",
+            "github_link": "https://github.com/Gauravkumar03/random-quote-generator",
+            "image_urls": ["./images/quote.png"] 
+        },
+        {   "id": 1,
+            "project_name": "DATA PAGINATION",
+            "description": "The data pagination project involves creating a user-friendly interface that efficiently displays large datasets by breaking them into manageable pages. It allows users to navigate through the data seamlessly, enhancing the overall experience and performance of web applications. The project emphasizes responsive design and optimal loading techniques to ensure fast access to data.",
+            "technologies": ["html", "css", "javascript"],
+            "live_link": "https://gauravkumar03.github.io/data-pagination/",
+            "github_link": "https://github.com/Gauravkumar03/data-pagination",
+            "image_urls": ["./images/pagination1.png", "./images/pagination2.png"] 
+        },
+        {   "id": 3,
+            "project_name": "OOP GAME",
+            "description": "Created a browser-based, word guessing game: 'Phrase Hunter.' I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
+            "technologies": ["html", "css", "javascript"],
+            "live_link": "https://gauravkumar03.github.io/oop-game/",
+            "github_link": "https://github.com/Gauravkumar03/oop-game",
+            "image_urls": ["./images/oop1.png", "./images/oop2.png", "./images/oop3.png"] 
+        },
+        {   "id": 4,
+            "project_name": "INTERACTIVE FORM",
+            "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, I used my skills to enhance a form so that it’s engaging, interactive, and easy to use.",
+            "technologies": ["html", "css", "javascript"],
+            "live_link": "https://gauravkumar03.github.io/interactive-form/",
+            "github_link": "https://github.com/Gauravkumar03/interactive-form",
+            "image_urls": ["./images/form.png"] 
+        },
+        {   "id": 5,
+            "project_name": "PUBLIC API REQUESTS",
+            "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, I created an employee directory by communicating with a third-party API (Application Programming Interface).",
+            "technologies": ["html", "css", "javascript"],
+            "live_link": "https://gauravkumar03.github.io/public-api-requests/",
+            "github_link": "https://github.com/Gauravkumar03/public-api-requests",
+            "image_urls": ["./images/api1.png", "./images/api2.png"] 
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+    h1 Let's make the web great together!
+    p Welcome to my portfolio! Here, you’ll find a collection of projects that highlight my skills in web development and problem-solving. Each project is a step in my journey to create impactful, user-centered solutions. Dive in and see what I’ve been building!
+
+  //-looping through each project object from the projects array and filling the data.
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project in projects
+        .cell
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`Thumbnail of ${project.project_name}`)
+            h5 #{project.project_name}
+
