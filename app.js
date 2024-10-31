@@ -11,7 +11,6 @@ app.set('view engine', 'pug')
 
 //using css files in public folder and also accesing images.
 app.use(express.static('public'));
-app.use('/images', express.static('images'));
 
 //home route
 app.get('/', (req, res) => {
@@ -41,6 +40,7 @@ app.use((error, req, res, next) => {
     if (error.status === 404) {
       // Render the 404 page for not found errors
       res.status(404).render("page-not-found", { message: error.message });
+      console.log(error.message)
     } else {
       // Set status to 500 if it's a server error or no status is set
       res.status(error.status || 500).render("error", {
