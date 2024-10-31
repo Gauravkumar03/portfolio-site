@@ -16,7 +16,7 @@
             "github_link": "https://github.com/Gauravkumar03/data-pagination",
             "image_urls": ["./images/pagination1.png", "./images/pagination2.png"] 
         },
-        {   "id": 3,
+        {   "id": 2,
             "project_name": "OOP GAME",
             "description": "Created a browser-based, word guessing game: 'Phrase Hunter.' I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
             "technologies": ["html", "css", "javascript"],
@@ -24,7 +24,7 @@
             "github_link": "https://github.com/Gauravkumar03/oop-game",
             "image_urls": ["./images/oop1.png", "./images/oop2.png", "./images/oop3.png"] 
         },
-        {   "id": 4,
+        {   "id": 3,
             "project_name": "INTERACTIVE FORM",
             "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, I used my skills to enhance a form so that it’s engaging, interactive, and easy to use.",
             "technologies": ["html", "css", "javascript"],
@@ -32,7 +32,7 @@
             "github_link": "https://github.com/Gauravkumar03/interactive-form",
             "image_urls": ["./images/form.png"] 
         },
-        {   "id": 5,
+        {   "id": 4,
             "project_name": "PUBLIC API REQUESTS",
             "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, I created an employee directory by communicating with a third-party API (Application Programming Interface).",
             "technologies": ["html", "css", "javascript"],
